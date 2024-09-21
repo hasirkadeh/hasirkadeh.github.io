@@ -11,7 +11,22 @@ https://templatemo.com/tm-531-reflux
 body {
     font-family: 'Lato', sans-serif;
 }
-
+.col-md-12{
+    padding: 0px 60px;
+}
+.col-md-12 ul li{
+    display: block;
+    padding-left: 50px;
+}
+.col-md-12 ul li:last-child{
+    padding-bottom: 20px;
+}
+.col-md-12 ul li a{
+    color: #cfcfcf;
+}
+.col-md-12 ul li svg{
+    padding-right: 5px;
+}
 #page-wraper {
     background: url(../images/page-bg.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -314,6 +329,8 @@ html {
 
 .section-heading span {
     margin-top: 5px;
+    display: block;
+    text-align: left;
     font-size: 16px;
     color: #fff;
     letter-spacing: 0.5px;
